@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-image: url(./img/stadium.jpg);
+    opacity: 0.8s;
+    
+
+}
+/* HERO */
+.hero h1{
+    font-size: 50px;
+    margin-top: 40px;
+    text-align: center;
+  
+
+
+    font-weight: 800;
+}
+
+.hero-label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.hero-label label{
+    font-size: 35px;
+    font-weight: 900;
+    padding: 10px 15px ;
+    background-color: greenyellow;
+    border-radius: 20px;
+
+
+}
+.hero-label label:hover{
+    background-color: aqua;
+}
+.hero-img input{
+    display: none;
+    
+}
+.hero-img img{
+    width: 15%;
+    margin: 20px 60px;
+
+}
+
+.hero-img{
+margin-left: 60px;
+
+}
+/* HERO */
+/* 
+TABS */
+#barsa:checked ~ .img-mancity,
+#barsa:checked ~ .img-inter,
+#barsa:checked ~ .img-galatasaray,
+#barsa:checked ~ .img-osmu,
+#barsa:checked ~ .img-arsenal,
+#barsa:checked ~ .img-chealse,
+#barsa:checked ~ .img-mun,
+#barsa:checked ~ .img-atalanta,
+#barsa:checked ~ .img-torino,
+#barsa:checked ~ .img-milan,
+#barsa:checked ~ .img-alya,
+#barsa:checked ~ .img-fener,
+#barsa:checked ~ .img-konyaspor,
+#barsa:checked ~ .img-ili,
+#barsa:checked ~ .img-alga,
+#barsa:checked ~ .img-dordoy {
+   display: none;
+   transition: 0.8s;
+ 
+
+  
+}
+ 
+
+#man-city:checked ~ .img-barsa,
+#man-city:checked ~ .img-inter,
+#man-city:checked ~ .img-galatasaray,
+#man-city:checked ~ .img-osmu,
+#man-city:checked ~ .img-atletik,
+#man-city:checked ~ .img-jirona,
+#man-city:checked ~ .img-real,
+#man-city:checked ~ .img-atalanta,
+#man-city:checked ~ .img-torino,
+#man-city:checked ~ .img-milan,
+#man-city:checked ~ .img-alya,
+#man-city:checked ~ .img-fener,
+#man-city:checked ~ .img-konyaspor,
+#man-city:checked ~ .img-ili,
+#man-city:checked ~ .img-alga,
+#man-city:checked ~ .img-dordoy{
+    display: none;
+}
+
+
+
+#inter:checked ~ .img-mancity,
+#inter:checked ~ .img-barsa,
+#inter:checked ~ .img-galatasaray,
+#inter:checked ~ .img-osmu,
+#inter:checked ~ .img-real,
+#inter:checked ~ .img-arsenal,
+#inter:checked ~ .img-chealse,
+#inter:checked ~ .img-mun,
+#inter:checked ~ .img-jirona,
+#inter:checked ~ .img-atletik,
+#inter:checked ~ .img-alya,
+#inter:checked ~ .img-fener,
+#inter:checked ~ .img-konyaspor,
+#inter:checked ~ .img-ili,
+#inter:checked ~ .img-alga,
+#inter:checked ~ .img-dordoy{
+    display: none;
+   
+}
+
+#galatasaray:checked ~ .img-mancity,
+#galatasaray:checked ~ .img-barsa,
+#galatasaray:checked ~ .img-inter,
+#galatasaray:checked ~ .img-osmu,
+#galatasaray:checked ~ .img-real,
+#galatasaray:checked ~ .img-atalanta,
+#galatasaray:checked ~ .img-torino,
+#galatasaray:checked ~ .img-milan,
+#galatasaray:checked ~ .img-atletik,
+#galatasaray:checked ~ .img-jirona,
+#galatasaray:checked ~ .img-arsenal,
+#galatasaray:checked ~ .img-chealse,
+#galatasaray:checked ~ .img-mun,
+#galatasaray:checked ~ .img-ili,
+#galatasaray:checked ~ .img-dordoy,
+#galatasaray:checked ~ .img-alga{
+    display: none;
+   
+}
+
+#talant:checked ~ .img-barsa,
+#talant:checked ~ .img-galatasaray,
+#talant:checked ~ .img-inter,
+#talant:checked ~ .img-real,
+#talant:checked ~ .img-alya,
+#talant:checked ~ .img-konyaspor,
+#talant:checked ~ .img-fener,
+#talant:checked ~ .img-mancity,
+#talant:checked ~ .img-atletik,
+#talant:checked ~ .img-jirona,
+#talant:checked ~ .img-arsenal,
+#talant:checked ~ .img-chealse,
+#talant:checked ~ .img-mun,
+#talant:checked ~ .img-atalanta,
+#talant:checked ~ .img-torino,
+#talant:checked ~ .img-milan {
+    display: none;
+   
+}
+
+#all:checked ~ .img-barsa,
+#all:checked ~ .img-galatasaray,
+#all:checked ~ .img-inter,
+#all:checked ~ .img-real,
+#all:checked ~ .img-alya,
+#all:checked ~ .img-konyaspor,
+#all:checked ~ .img-fener,
+#all:checked ~ .img-mancity,
+#all:checked ~ .img-atletik,
+#all:checked ~ .img-jirona,
+#all:checked ~ .img-arsenal,
+#all:checked ~ .img-chealse,
+#all:checked ~ .img-mun,
+#all:checked ~ .img-atalanta,
+#all:checked ~ .img-ili,
+#all:checked ~ .img-alga,
+#all:checked ~ .img-dordoy{
+    
+font-size: 100px;
+
+}
+
+ 
+
+
+
+
